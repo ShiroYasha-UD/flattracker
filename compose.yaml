@@ -1,0 +1,9 @@
+services:
+  postgres:
+    image: postgres 18
+    environment:
+      POSTGRES_DB: flattracker
+      POSTGRES_USER: flattracker
+      POSTGRES_PASSWORD: flattracker
+    ports:
+      - "5432"

@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: flat-tracker
+
+management:
+  endpoint:
+    health:
+      show-details: always
