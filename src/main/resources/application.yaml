@@ -1,6 +1,10 @@
 spring:
   application:
     name: flat-tracker
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    open-in-view: false
 
 management:
   endpoint:

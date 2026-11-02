@@ -18,9 +18,11 @@ enum class ListingType {
 }
 
 data class ScrapedListing(
-    @field:NotBlank val externalId: String,
+    @field:NotBlank
+    val externalId: String,
 
     val type: ListingType,
+
     @field:NotBlank
     val url: String,
 
